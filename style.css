@@ -1,4 +1,26 @@
+:root {
+  --titles: #212121;
+  --paraghraphs: #757575;
+}
+
 .photos {
   display: flex;
   width: 500px;
+}
+[href="./index.html"] {
+  color: #212121;
+  text-decoration: none;
+}
+li,
+h2,
+h3 {
+  color: var(--titles);
+}
+p,
+a {
+  color: #757575;
+}
+.logo_footer {
+  color: #212121;
+  text-decoration: none;
 }
