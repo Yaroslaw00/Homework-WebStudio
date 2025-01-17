@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto" serif;
+}
+
 :root {
   --titles: #212121;
   --paraghraphs: #757575;
