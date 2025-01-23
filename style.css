@@ -7,10 +7,6 @@ body {
   --paraghraphs: #757575;
 }
 
-.photos {
-  display: flex;
-  width: 500px;
-}
 [href="./index.html"] {
   color: #212121;
   text-decoration: none;
@@ -23,6 +19,87 @@ h3 {
 p,
 a {
   color: #757575;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.nav {
+}
+.header-list {
+}
+.list-item {
+}
+.list-info {
+}
+.email {
+}
+.phone_number {
+}
+.main {
+}
+.services {
+  padding-top: 200;
+  padding-bottom: 280px;
+}
+.main-title-of-services {
+}
+.main-button {
+}
+.about-skills {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.main-title-of-skills {
+}
+.list-of-skills {
+}
+.skill-1 {
+}
+.title-of-skill {
+}
+.text-of-skill {
+}
+.skill-2 {
+}
+.skill-3 {
+}
+.skill-4 {
+}
+.about-us {
+}
+.about-activities {
+  padding-bottom: 94px;
+}
+.list-of-activities {
+}
+.image-item {
+}
+.about-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.our-team {
+}
+.list-of-collegues {
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.logo_footer {
+}
+.footer-adress {
+}
+.footer-email {
+}
+.footer-phone_number {
 }
 .logo_footer {
   color: #212121;
