@@ -20,13 +20,17 @@ p,
 a {
   color: #757575;
 }
-.container {
+.flex {
   display: flex;
-  justify-content: center;
+}
+.container {
   width: 1200px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 .header {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .header-a {
 }
@@ -38,12 +42,16 @@ a {
   list-style: none;
   margin-left: 92px;
 }
-.list-item {
+.list-item:not(:last-child) {
+  margin-right: 50px;
 }
 .list-info {
+  display: flex;
+  margin-left: 344px;
 }
 .email {
   list-style: none;
+  margin-right: 50px;
 }
 .phone_number {
   list-style: none;
@@ -51,13 +59,17 @@ a {
 .main {
 }
 .services {
-  padding-top: 200;
-  padding-bottom: 280px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .main-title-of-services {
+  display: flex;
+  justify-content: center;
   line-height: calc(60 / 44);
 }
 .main-button {
+  display: block;
+  margin: 0 auto;
 }
 .about-skills {
   padding-top: 94px;
@@ -66,20 +78,18 @@ a {
 .main-title-of-skills {
 }
 .list-of-skills {
+  display: flex;
+  list-style: none;
 }
-.skill-1 {
+.skill:not(:last-child) {
+  margin-right: 30px;
 }
 .title-of-skill {
 }
 .text-of-skill {
   line-height: calc(24 / 14);
 }
-.skill-2 {
-}
-.skill-3 {
-}
-.skill-4 {
-}
+
 .about-us {
 }
 .about-activities {
