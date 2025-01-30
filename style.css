@@ -21,26 +21,32 @@ a {
   color: #757575;
 }
 .container {
+  display: flex;
+  justify-content: center;
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
+  padding: 0 15px;
 }
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+}
+.header-a {
 }
 .nav {
+  display: flex;
 }
 .header-list {
+  display: flex;
+  list-style: none;
+  margin-left: 92px;
 }
 .list-item {
 }
 .list-info {
 }
 .email {
+  list-style: none;
 }
 .phone_number {
+  list-style: none;
 }
 .main {
 }
