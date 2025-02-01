@@ -123,19 +123,13 @@ a {
   justify-content: center;
   list-style: none;
 }
-.image-item-collegues {
-  display: flex;
+.image-item-collegues:not(:last-child) {
   margin-right: 30px;
-  width: 270px;
-  height: 260px;
-}
+  
 .name {
-  display: flex;
-  flex-direction: column;
 }
 
 .tech-skills {
-  display: block;
 }
 .footer {
   padding-top: 60px;
