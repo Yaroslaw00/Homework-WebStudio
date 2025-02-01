@@ -125,11 +125,21 @@ a {
 }
 .image-item-collegues:not(:last-child) {
   margin-right: 30px;
-  
+}
+.img {
+  height: 260px;
+  width: 270px;
+}
 .name {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .tech-skills {
+  display: flex;
+  justify-content: center;
 }
 .footer {
   padding-top: 60px;
