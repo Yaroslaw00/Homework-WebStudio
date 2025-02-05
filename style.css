@@ -301,9 +301,12 @@ a {
 }
 .topics:not(:last-child) {
   display: flex;
-  margin-left: 512px;
-  margin-right: 513px;
+  justify-content: center;
   list-style: none;
+  margin-bottom: 56px;
+}
+.list-item1:not(:last-child) {
+  margin-right: 55px;
 }
 .list-of-services {
   display: grid;
@@ -312,4 +315,19 @@ a {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   list-style: none;
+}
+.topic {
+  display: flex;
+  flex-direction: row;
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  line-height: calc(36 / 18);
+}
+.type {
+  display: flex;
+  flex-direction: row;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  line-height: calc(30 / 16);
 }
