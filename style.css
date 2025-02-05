@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto" serif;
+  font-family: "Roboto" sans-serif-serif;
 }
 
 :root {
@@ -18,7 +18,7 @@ h3 {
 }
 p,
 a {
-  color: #757575;
+  color: var(--paraghraphs);
 }
 .flex {
   display: flex;
@@ -29,10 +29,28 @@ a {
   margin: 0 auto;
 }
 .header {
+}
+.header-a {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-.header-a {
+.Web {
+  color: #2196f3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+.Studio {
+  color: #000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
 }
 .nav {
   display: flex;
@@ -41,6 +59,15 @@ a {
   display: flex;
   list-style: none;
   margin-left: 92px;
+  color: var(--titles);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .list-item:not(:last-child) {
   margin-right: 50px;
@@ -48,6 +75,14 @@ a {
 .list-info {
   display: flex;
   margin-left: 344px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--paraghraphs);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
 }
 .email {
   list-style: none;
@@ -61,11 +96,21 @@ a {
 .services {
   padding-top: 200px;
   padding-bottom: 200px;
+  background: #2f303a;
 }
 .main-title-of-services {
   display: flex;
   justify-content: center;
   line-height: calc(60 / 44);
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
 }
 .main-button {
   width: 216px;
@@ -73,6 +118,15 @@ a {
   display: block;
   margin: 0 auto;
   margin-top: 30px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.96px;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .about-skills {
   padding-top: 94px;
@@ -88,9 +142,25 @@ a {
   margin-right: 30px;
 }
 .title-of-skill {
+  color: var(--titles);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
 .text-of-skill {
   line-height: calc(24 / 14);
+  margin-top: 10px;
+  color: var(--paraghraphs);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+
+  letter-spacing: 0.42px;
 }
 
 .about-us {
@@ -100,6 +170,14 @@ a {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
+  color: var(--titles);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
 }
 .list-of-activities {
   display: flex;
@@ -117,6 +195,14 @@ a {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
 }
 .list-of-collegues {
   display: flex;
@@ -135,35 +221,82 @@ a {
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 10px;
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
 }
 
 .tech-skills {
   display: flex;
   justify-content: center;
+  color: var(--paraghraphs);
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
 }
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background: #2f303a;
 }
 .logo_footer {
   display: block;
-  color: #212121;
+  color: var(--titles);
   text-decoration: none;
   margin-bottom: 20px;
+}
+.studio {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
 }
 
 .footer-adress {
   text-decoration: none;
   margin-bottom: 9px;
   line-height: calc(24 / 14);
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+
+  letter-spacing: 0.42px;
 }
 .footer-email {
   display: flex;
   text-decoration: none;
   margin-bottom: 9px;
   line-height: calc(24 / 14);
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+
+  letter-spacing: 0.42px;
 }
 .footer-phone_number {
   text-decoration: none;
   line-height: calc(24 / 14);
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+
+  letter-spacing: 0.42px;
 }
