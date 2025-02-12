@@ -44,7 +44,7 @@ a {
   letter-spacing: 0.78px;
 }
 .Studio {
-  color: #000;
+  color: var(--titles);
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
@@ -84,8 +84,15 @@ a {
   line-height: normal;
   letter-spacing: 0.28px;
 }
+.a {
+  text-decoration: none;
+}
+.phone {
+  text-decoration: none;
+}
 .email {
   list-style: none;
+
   margin-right: 50px;
 }
 .phone_number {
@@ -316,6 +323,13 @@ a {
   grid-row-gap: 30px;
   list-style: none;
 }
+.service-item {
+  width: 370px;
+  height: 404px;
+  flex-shrink: 0;
+  border: 1px solid #eee;
+  background: #fff;
+}
 .topic {
   display: flex;
   flex-direction: row;
@@ -323,6 +337,45 @@ a {
   padding-top: 20px;
   padding-bottom: 4px;
   line-height: calc(36 / 18);
+  color: #212121;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+
+  letter-spacing: 1.08px;
+}
+.list-item1:first-child {
+  color: #fff;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+  background: #2196f3;
+
+  /* shadow-middle */
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+}
+.list-item1 {
+  color: #000000;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.48px;
+  width: 125px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #f5f4fa;
 }
 .type {
   display: flex;
@@ -330,4 +383,10 @@ a {
   padding-left: 24px;
   padding-bottom: 20px;
   line-height: calc(30 / 16);
+  color: #757575;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.48px;
 }
