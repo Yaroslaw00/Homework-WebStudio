@@ -376,7 +376,9 @@ a {
 .list-item1:first-child {
   color: #fff;
   text-align: center;
-
+  width: 73px;
+  height: 38px;
+  flex-shrink: 0;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
