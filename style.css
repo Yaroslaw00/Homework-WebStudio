@@ -103,7 +103,9 @@ a {
 .services {
   padding-top: 200px;
   padding-bottom: 200px;
-  background: #2f303a;
+  background-image: url(./img/background-img.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .main-title-of-services {
   display: flex;
