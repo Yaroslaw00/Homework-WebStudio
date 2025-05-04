@@ -503,3 +503,38 @@ a {
 .client:hover {
   border-color: #2196f3;
 }
+.join {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.join-block {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.svg2 {
+  width: 20px;
+  height: 20px;
+}
+.join-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.join-icons {
+  display: flex;
+  list-style: none;
+}
+.join-icon:hover svg {
+  fill: #fff;
+}
+.join-icon:hover {
+  background-color: #2196f3;
+  cursor: pointer;
+}
