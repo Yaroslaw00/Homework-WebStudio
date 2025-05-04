@@ -515,7 +515,8 @@ a {
 }
 .join-block {
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
+  height: 200px;
 }
 
 .svg2 {
@@ -526,10 +527,14 @@ a {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  padding: 12px;
 }
 .join-icons {
   display: flex;
   list-style: none;
+}
+.join-icon {
+  margin-top: 20px;
 }
 .join-icon:hover svg {
   fill: #fff;
@@ -537,4 +542,7 @@ a {
 .join-icon:hover {
   background-color: #2196f3;
   cursor: pointer;
+}
+.join-icon:not(:last-child) {
+  margin-right: 10px;
 }
