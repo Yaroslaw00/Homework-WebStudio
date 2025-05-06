@@ -512,11 +512,12 @@ a {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  height: 10px;
 }
 .join-block {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-left: 156px;
   height: 200px;
 }
 
@@ -532,11 +533,11 @@ a {
 }
 .join-icons {
   display: flex;
+  flex-direction: row;
+  width: 300px;
   list-style: none;
 }
-.join-icon {
-  margin-top: 20px;
-}
+
 .join-icon:hover svg {
   fill: #fff;
 }
@@ -546,4 +547,7 @@ a {
 }
 .join-icon:not(:last-child) {
   margin-right: 10px;
+}
+.div {
+  display: flex;
 }
