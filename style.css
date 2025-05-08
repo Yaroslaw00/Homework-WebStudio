@@ -516,7 +516,8 @@ a {
 }
 .join-block {
   display: flex;
-  justify-content: center;
+  align-items: center;
+
   margin-left: 156px;
   height: 200px;
 }
@@ -534,6 +535,7 @@ a {
 .join-icons {
   display: flex;
   flex-direction: row;
+  align-items: first baseline;
   width: 300px;
   list-style: none;
 }
