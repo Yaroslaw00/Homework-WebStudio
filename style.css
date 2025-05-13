@@ -522,12 +522,14 @@ a {
 .svg2 {
   width: 20px;
   height: 20px;
+  fill: #ffffff;
 }
 .join-icon {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   padding: 12px;
+  background-color: #3a3f42;
 }
 .join-icons {
   display: flex;
