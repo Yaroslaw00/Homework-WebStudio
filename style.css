@@ -512,12 +512,9 @@ a {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-  height: 10px;
+  margin-bottom: 20px;
 }
 .join-block {
-  display: flex;
-  align-items: center;
-
   margin-left: 156px;
   height: 200px;
 }
