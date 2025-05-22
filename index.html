@@ -18,6 +18,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
@@ -30,6 +35,8 @@
           ><b class="Studio">Studio</b></a
         >
         <nav class="nav">
+          
+    
           <ul class="header-list">
             <li class="list-item" style="color: #2196f3">Студія</li>
             <li class="list-item">Портфоліо</li>
@@ -46,6 +53,7 @@
         </ul>
       </div>
     </header>
+   
     <main class="main">
       <section class="services">
         <div class="container">
@@ -112,10 +120,11 @@
           </ul>
         </div>
       </section>
+     
       <section class="about-team">
         <div class="container">
           <h2 class="our-team">Наша команда</h2>
-          <ul class="list-of-collegues">
+          <ul data-aos="flip-up" class="list-of-collegues">
             <li class="image-item-collegues">
               <img class="img" src="./img/img.png" alt="" />
               <p class="name">Ігор Дем'яненко</p>
@@ -291,6 +300,7 @@
         >
         </div>
         <div class="join-block">
+          
           <p class="join">Приєднуйтесь</p>
           <ul class="join-icons">
             
@@ -333,9 +343,34 @@
     </footer>
    <div data-modal class="backdrop is-hidden">
     <div class="modal ">
-      <button data-modal-close>X</button>
+      <button class="close" сд data-modal-close>X</button>
+      <h3 class="h3-moodal">Залиште свої дані, ми вам передзвонимо</h3>
+      <ul>
+        <li>
+          <p>
+            <input type="text" class="input"></input></p>
+        </li>
+        <li>
+          <p>
+            <input type="text" class="input"></p>
+        </li>
+        <li>
+          <p>
+            <input type="text" class="input"></p>
+        </li>
+        <li>
+          <p>
+            <input type="text" class="input"></p>
+        </li>
+      </ul>
+      
     </div>
-   </div>
-  </body>
+   </div> 
+   
+  </body>\
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./modal.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>

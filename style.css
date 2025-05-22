@@ -581,7 +581,8 @@ a {
 }
 .modal {
   width: 528px;
-
+  display: flex;
+  flex-direction: row-reverse;
   height: 581px;
   position: relative;
   left: 50%;
@@ -595,4 +596,19 @@ a {
 .is-hidden {
   opacity: 0;
   pointer-events: none;
+}
+.close {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border-style: none;
+  box-shadow: 0px 4px 5px 0px rgba(186, 186, 186, 1);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(186, 186, 186, 1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(186, 186, 186, 1);
+}
+.xz {
+  width: 100px;
+  height: 100px;
+  background-color: green;
 }
