@@ -584,9 +584,9 @@ a {
 }
 .modal {
   width: 528px;
-
+  height: 650px;
   flex-direction: row-reverse;
-  height: 581px;
+
   position: relative;
   left: 50%;
   top: 50%;
@@ -634,13 +634,13 @@ a {
   padding-left: 40px;
 }
 .input {
-  width: 448px;
-  height: 40px;
-  flex-shrink: 0;
-  border-radius: 4px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  margin-bottom: 26px;
+  width: 100%;
+  padding: 10px 10px 10px 36px; /* зліва місце під іконку */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
 }
+
 .KOMMENT {
   width: 448px;
   height: 120px;
@@ -659,4 +659,80 @@ a {
   padding-top: 40px;
   padding-right: 40px;
   padding-left: 40px;
+}
+.conditions {
+  text-align: center;
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+  margin-top: 20px;
+}
+.contract {
+  color: #2196f3;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+.kub {
+}
+.p-modal:first-child {
+  margin-top: 12px;
+}
+.div-button {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+}
+.button-modal {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border-style: none;
+}
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.input-icon {
+  position: absolute;
+  left: 10px;
+  width: 18px;
+  height: 18px;
+  pointer-events: none;
+}
+.input-field {
+  width: 100%;
+  padding: 10px 10px 10px 36px; /* зліва місце під іконку */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
 }
