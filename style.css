@@ -144,7 +144,10 @@ a {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: hidden;
 }
-
+.main-button:hover {
+  cursor: pointer;
+  background-color: #1976d2;
+}
 .about-skills {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -507,6 +510,7 @@ a {
   border-color: #2196f3;
 }
 .join {
+  width: 120px;
   color: #fff;
   font-family: Roboto;
   font-size: 14px;
@@ -518,6 +522,7 @@ a {
   margin-bottom: 20px;
 }
 .join-block {
+  width: 280px;
   margin-left: 156px;
   height: 200px;
 }
@@ -538,7 +543,7 @@ a {
   display: flex;
   flex-direction: row;
   align-items: first baseline;
-  width: 300px;
+  width: 250px;
   list-style: none;
 }
 
@@ -552,6 +557,7 @@ a {
 .join-icon:not(:last-child) {
   margin-right: 10px;
 }
+
 .div {
   display: flex;
 }
@@ -715,6 +721,10 @@ a {
   margin-bottom: 40px;
   border-style: none;
 }
+.button-modal:hover {
+  cursor: pointer;
+  background-color: #1976d2;
+}
 .input-wrapper {
   position: relative;
   display: flex;
@@ -735,4 +745,49 @@ a {
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 14px;
+}
+.p-subscribe {
+  display: flex;
+  align-items: center;
+  height: 17px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+.subscribe-div {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  margin-right: 185px;
+  margin-left: 290px;
+  margin-bottom: 194px;
+}
+.subscribe-button {
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-style: none;
+}
+.subscribe-button:hover {
+  cursor: pointer;
+  background-color: #1976d2;
+}
+.subscribe-input {
+  width: 358px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
 }
