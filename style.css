@@ -413,6 +413,10 @@ a {
   transition: 0.3s ease;
   margin-top: 28px;
 }
+.box_3 {
+  width: 370px;
+  height: 294px;
+}
 .list-item:hover::after {
   opacity: 1;
   transition-property: opacity, background-color;
@@ -630,6 +634,8 @@ a {
 
 .div {
   display: flex;
+
+  align-items: center;
 }
 .position {
   position: relative;
@@ -810,7 +816,7 @@ a {
   pointer-events: none;
 }
 .input-field {
-  width: 100%;
+  width: 358px;
   padding: 10px 10px 10px 36px; /* зліва місце під іконку */
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -829,17 +835,17 @@ a {
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-.subscribe-div {
+.form {
   display: flex;
+}
+.subscribe-div {
   width: 300px;
   height: 200px;
-  margin-right: 185px;
-  margin-left: 290px;
-  margin-bottom: 194px;
 }
 .subscribe-button {
   width: 200px;
   height: 50px;
+  margin-left: 12px;
   flex-shrink: 0;
 
   border-radius: 4px;
